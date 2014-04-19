@@ -14,7 +14,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWidget</string>
+   <string>TeamView</string>
   </property>
   <property name="styleSheet">
    <string notr="true">#MainWidget {

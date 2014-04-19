@@ -2,12 +2,16 @@
 1;Bulbasaur
 2;Ivysaur
 3;Venusaur
+3-1;Mega Venusaur
 4;Charmander
 5;Charmeleon
 6;Charizard
+6-1;Mega Charizard X
+6-2;Mega Charizard Y
 7;Squirtle
 8;Wartortle
 9;Blastoise
+9-1;Mega Blastoise
 10;Caterpie
 11;Metapod
 12;Butterfree
@@ -64,6 +68,7 @@
 63;Abra
 64;Kadabra
 65;Alakazam
+65-1;Mega Alakazam
 66;Machop
 67;Machoke
 68;Machamp
@@ -93,6 +98,7 @@
 92;Gastly
 93;Haunter
 94;Gengar
+94-1;Mega Gengar
 95;Onix
 96;Drowzee
 97;Hypno
@@ -114,6 +120,7 @@
 113;Chansey
 114;Tangela
 115;Kangaskhan
+115-1;Mega Kangaskhan
 116;Horsea
 117;Seadra
 118;Goldeen
@@ -126,9 +133,11 @@
 125;Electabuzz
 126;Magmar
 127;Pinsir
+127-1;Mega Pinsir
 128;Tauros
 129;Magikarp
 130;Gyarados
+130-1;Mega Gyarados
 131;Lapras
 132;Ditto
 133;Eevee
@@ -141,6 +150,7 @@
 140;Kabuto
 141;Kabutops
 142;Aerodactyl
+142-1;Mega Aerodactyl
 143;Snorlax
 144;Articuno
 145;Zapdos
@@ -149,6 +159,8 @@
 148;Dragonair
 149;Dragonite
 150;Mewtwo
+150-1;Mega Mewtwo X
+150-2;Mega Mewtwo Y
 151;Mew
 152;Chikorita
 153;Bayleef
@@ -180,6 +192,7 @@
 179;Mareep
 180;Flaaffy
 181;Ampharos
+181-1;Mega Ampharos
 182;Bellossom
 183;Marill
 184;Azumarill
@@ -211,8 +224,10 @@
 210;Granbull
 211;Qwilfish
 212;Scizor
+212-1;Mega Scizor
 213;Shuckle
 214;Heracross
+214-1;Mega Heracross
 215;Sneasel
 216;Teddiursa
 217;Ursaring
@@ -228,6 +243,7 @@
 227;Skarmory
 228;Houndour
 229;Houndoom
+229-1;Mega Houndoom
 230;Kingdra
 231;Phanpy
 232;Donphan
@@ -247,6 +263,7 @@
 246;Larvitar
 247;Pupitar
 248;Tyranitar
+248-1;Mega Tyranitar
 249;Lugia
 250;Ho-Oh
 251;Celebi
@@ -256,6 +273,7 @@
 255;Torchic
 256;Combusken
 257;Blaziken
+257-1;Mega Blaziken
 258;Mudkip
 259;Marshtomp
 260;Swampert
@@ -281,6 +299,7 @@
 280;Ralts
 281;Kirlia
 282;Gardevoir
+282-1;Mega Gardevoir
 283;Surskit
 284;Masquerain
 285;Shroomish
@@ -302,13 +321,17 @@
 301;Delcatty
 302;Sableye
 303;Mawile
+303-1;Mega Mawile
 304;Aron
 305;Lairon
 306;Aggron
+306-1;Mega Aggron
 307;Meditite
 308;Medicham
+308-1;Mega Medicham
 309;Electrike
 310;Manectric
+310-1;Mega Manectric
 311;Plusle
 312;Minun
 313;Volbeat
@@ -353,11 +376,13 @@
 352;Kecleon
 353;Shuppet
 354;Banette
+354-1;Mega Banette
 355;Duskull
 356;Dusclops
 357;Tropius
 358;Chimecho
 359;Absol
+359-1;Mega Absol
 360;Wynaut
 361;Snorunt
 362;Glalie
@@ -385,6 +410,9 @@
 384;Rayquaza
 385;Jirachi
 386;Deoxys
+386-1;Deoxys-A
+386-2;Deoxys-D
+386-3;Deoxys-S
 387;Turtwig
 388;Grotle
 389;Torterra
@@ -444,9 +472,11 @@
 443;Gible
 444;Gabite
 445;Garchomp
+445-1;Mega Garchomp
 446;Munchlax
 447;Riolu
 448;Lucario
+448-1;Mega Lucario
 449;Hippopotas
 450;Hippowdon
 451;Skorupi
@@ -459,6 +489,7 @@
 458;Mantyke
 459;Snover
 460;Abomasnow
+460-1;Mega Abomasnow
 461;Weavile
 462;Magnezone
 463;Lickilicky
@@ -478,6 +509,11 @@
 477;Dusknoir
 478;Froslass
 479;Rotom
+479-1;Rotom-C
+479-2;Rotom-H
+479-3;Rotom-F
+479-4;Rotom-W
+479-5;Rotom-S
 480;Uxie
 481;Mesprit
 482;Azelf
@@ -486,6 +522,7 @@
 485;Heatran
 486;Regigigas
 487;Giratina
+487-1;Giratina-O
 488;Cresselia
 489;Phione
 490;Manaphy
@@ -641,12 +678,18 @@
 639;Terrakion
 640;Virizion
 641;Tornadus
+641-1;Tornadus-T
 642;Thundurus
+642-1;Thunderus-T
 643;Reshiram
 644;Zekrom
 645;Landorus
+645-1;Landorus-T
 646;Kyurem
+646-1;Kyurem-W
+646-2;Kyurem-B
 647;Keldeo
+647-1;Keldeo-R
 648;Meloetta
 649;Genesect
 650;Chespin
