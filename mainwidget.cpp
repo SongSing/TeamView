@@ -16,7 +16,7 @@ MainWidget::MainWidget(QWidget *parent) :
 
     ui->setupUi(this);
 
-    this->setWindowFlags(Qt::WindowStaysOnTopHint);
+    setWindowFlags(Qt::WindowStaysOnTopHint);
 
     connect(ui->opacity, SIGNAL(valueChanged(int)), this, SLOT(changeOpacity(int)));
 
