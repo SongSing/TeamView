@@ -23,6 +23,8 @@ MainWidget::MainWidget(QWidget *parent) :
     connect(ui->view, SIGNAL(clicked()), this, SLOT(showTeam()));
     connect(ui->team, SIGNAL(returnPressed()), this, SLOT(showTeam()));
 
+    connect(ui->typeChart, SIGNAL(clicked()), this, SLOT(showTypeChart()));
+
     connect(ui->showOpacity, SIGNAL(clicked()), this, SLOT(toggleShowOpacity()));
 
     QList<QPushButton *> buttons = { ui->p1, ui->p2, ui->p3, ui->p4, ui->p5, ui->p6 };
@@ -40,6 +42,7 @@ MainWidget::MainWidget(QWidget *parent) :
 
     ui->opacity->setVisible(false);
     ui->opacityLabel->setVisible(false);
+    ui->typeChart->setVisible(false);
 }
 
 MainWidget::~MainWidget()
@@ -130,6 +133,7 @@ void MainWidget::toggleShowOpacity()
 {
     ui->opacity->setVisible(!ui->opacity->isVisible());
     ui->opacityLabel->setVisible(!ui->opacityLabel->isVisible());
+    ui->typeChart->setVisible(!ui->typeChart->isVisible());
     ui->showOpacity->setText((ui->showOpacity->text() == "▼" ? "▲" : "▼"));
 }
 
@@ -174,4 +178,14 @@ void MainWidget::showTeam()
             b->setProperty("dead", false);
         }
     }
+}
+
+void MainWidget::showTypeChart()
+{
+    QLabel *w = new QLabel(this);
+    w->setWindowFlags(Qt::Window | Qt::WindowStaysOnTopHint);
+    w->setAttribute(Qt::WA_DeleteOnClose, true);
+    w->setGeometry(this->x(), this->y(), 800, 600);
+    w->setStyleSheet("border-image:url(':/Images/typeChart.png');");
+    w->show();
 }

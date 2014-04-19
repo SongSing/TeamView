@@ -32,6 +32,7 @@ public slots:
     void changeOpacity(int val);
     void toggleShowOpacity();
     void showTeam();
+    void showTypeChart();
 };
 
 #endif // MAINWIDGET_H

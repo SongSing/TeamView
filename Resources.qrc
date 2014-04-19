@@ -845,5 +845,6 @@
         <file>sprites/egg.png</file>
         <file>sprites/egg-manaphy.png</file>
         <file>sprites/substitute.png</file>
+        <file>typeChart.png</file>
     </qresource>
 </RCC>

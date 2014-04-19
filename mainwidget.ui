@@ -262,6 +262,13 @@ QPushButton:pressed, QPushButton:checked {
        </property>
       </widget>
      </item>
+     <item>
+      <widget class="QPushButton" name="typeChart">
+       <property name="text">
+        <string>Type Chart</string>
+       </property>
+      </widget>
+     </item>
     </layout>
    </item>
   </layout>
