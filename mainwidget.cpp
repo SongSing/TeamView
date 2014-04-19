@@ -89,22 +89,27 @@ void MainWidget::pokeButtonClicked()
 
     if (!b->property("dead").toBool())
     {
+        // make the thing greyed out //
+
         QImage img(b->property("path").toString());
-        // morph it into a grayscale image
+
         img = img.alphaChannel();
-        // the new color we want the logo to have
-        QColor foreground = qRgba(0,0,0,255);
-        // now replace the colors in the image
-        for(int i = 0; i < img.colorCount(); ++i) {
+
+        QColor foreground = qRgba(0,0,0,150);
+
+        for(int i = 0; i < img.colorCount(); ++i)
+        {
             foreground.setAlpha((qGray(img.color(i)) == 0 ? 0 : 150));
             img.setColor(i, foreground.rgba());
         }
 
-        // display the new logo
+
         b->setIcon(QIcon(QPixmap::fromImage(img)));
     }
     else
     {
+        // bring it back to livings //
+
         b->setIcon(QIcon(b->property("path").toString()));
     }
 
@@ -130,14 +135,11 @@ void MainWidget::toggleShowOpacity()
 
 void MainWidget::showTeam()
 {
-
-
     QString team = ui->team->text();
     QStringList pokes;
 
     if (team.length() > 0)
     {
-
         if (team.contains("/"))
         {
             while (team.contains("  "))
