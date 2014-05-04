@@ -680,7 +680,7 @@
 641;Tornadus
 641-1;Tornadus-T
 642;Thundurus
-642-1;Thunderus-T
+642-1;Thundurus-T
 643;Reshiram
 644;Zekrom
 645;Landorus
@@ -721,6 +721,7 @@
 676;Furfrou
 677;Espurr
 678;Meowstic
+678-1;Meowstic-F
 679;Honedge
 680;Doublade
 681;Aegislash
@@ -754,6 +755,9 @@
 709;Trevenant
 710;Pumpkaboo
 711;Gourgeist
+711-1;Gourgeist-S
+711-2;Gourgeist-L
+711-3;Gourgeist-XL
 712;Bergmite
 713;Avalugg
 714;Noibat
